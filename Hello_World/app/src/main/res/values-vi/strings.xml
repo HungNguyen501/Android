@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Study App</string>
+    <string name="hello_app">Xin chào</string>
+    <string name="test">Đây là ứng dụng học tập</string>
+</resources>

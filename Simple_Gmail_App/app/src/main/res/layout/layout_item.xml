@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+    
+    <TextView
+        android:id="@+id/tv_label"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/circle_background"
+        android:text="p"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:textAllCaps="true"
+        android:textColor="#ffffff"/>
+    
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/tv_label"
+        android:layout_toLeftOf="@id/tv_time"
+        android:text="Peter"
+        android:textSize="20dp"
+        android:singleLine="true"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:id="@+id/tv_subject"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/tv_label"
+        android:layout_toLeftOf="@id/img_favarite"
+        android:layout_below="@+id/tv_name"
+        android:text="Hellojhajfhajfhjshfhhjfjshfkjsfjsfhjkshfkshfskjhfsk"
+        android:textSize="15dp"
+        android:singleLine="true"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:id="@+id/tv_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/tv_label"
+        android:layout_toLeftOf="@id/img_favarite"
+        android:layout_below="@+id/tv_subject"
+        android:text="Hi! What are you doing?"
+        android:textSize="15dp"
+        android:singleLine="true"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="12:04PM"
+        android:textSize="15dp"/>
+
+
+    <ImageButton
+        android:id="@+id/img_favarite"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/tv_time"
+        android:scaleType="fitCenter"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/ic_empty_star"
+        android:background="#ffffff"/>
+
+</RelativeLayout>

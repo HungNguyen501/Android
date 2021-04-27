@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_create_dir"
+        android:icon="@drawable/ic_create_new_folder"
+        android:title="Create Folder"
+
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/action_create_file"
+        android:icon="@drawable/ic_create_file"
+        android:title="Create File"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/action_refresh"
+        android:icon="@drawable/ic_refresh"
+        android:title="Refresh"
+        app:showAsAction="always"/>
+
+</menu>

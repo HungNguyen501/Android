@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_update_from_server"
+        android:icon="@drawable/ic_system_update"
+        android:title="Update from Sevrer"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/action_upload_to_server"
+        android:icon="@drawable/ic_file_upload"
+        android:title="Upload to Sevrer"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/action_refresh"
+        android:icon="@drawable/ic_refresh"
+        android:title="refresh"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/action_add_person"
+        android:title="Thêm cán bộ"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_export_report"
+        android:title="Xuất báo cáo"
+        app:showAsAction="never"/>
+
+</menu>

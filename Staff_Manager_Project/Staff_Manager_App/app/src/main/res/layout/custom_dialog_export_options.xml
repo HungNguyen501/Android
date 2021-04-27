@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <Button
+        android:id="@+id/btn_export_danh_sach_can_bo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:textSize="18sp"
+        android:textAllCaps="false"
+        android:gravity="left|center_vertical"
+        android:background="#fff"
+        android:text="Danh sách cán bộ" />
+
+    <Button
+        android:id="@+id/btn_export_danh_sach_can_bo_nam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:textSize="18sp"
+        android:textAllCaps="false"
+        android:gravity="left|center_vertical"
+        android:background="#fff"
+        android:text="Danh sách cán bộ nam" />
+
+    <Button
+        android:id="@+id/btn_export_danh_sach_can_bo_nu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:textSize="18sp"
+        android:textAllCaps="false"
+        android:gravity="left|center_vertical"
+        android:background="#fff"
+        android:text="Danh sách cán bộ nữ" />
+
+    <Button
+        android:id="@+id/btn_export_cong_doan_phi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:textSize="18sp"
+        android:textAllCaps="false"
+        android:gravity="left|center_vertical"
+        android:background="#fff"
+        android:text="Công đoàn phí"/>
+
+    <Button
+        android:id="@+id/btn_export_dang_phi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:textSize="18sp"
+        android:textAllCaps="false"
+        android:gravity="left|center_vertical"
+        android:background="#fff"
+        android:text="Đảng phí"/>
+
+</LinearLayout>

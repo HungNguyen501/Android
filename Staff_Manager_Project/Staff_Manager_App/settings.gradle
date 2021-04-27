@@ -1,0 +1,2 @@
+rootProject.name='QuanLyCanBo'
+include ':app'

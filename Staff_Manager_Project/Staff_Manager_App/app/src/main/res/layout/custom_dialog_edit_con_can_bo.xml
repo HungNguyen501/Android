@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <EditText
+        android:id="@+id/edit_text_ho_ten_con_can_bo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ho ten"
+        android:textSize="18sp"
+        android:textColor="#000"
+        android:layout_marginBottom="10dp"/>
+
+    <EditText
+        android:id="@+id/edit_text_nam_sinh_con_can_bo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="nam sinh"
+        android:textSize="18sp"
+        android:textColor="#000"
+        android:layout_marginBottom="10dp"/>
+
+    <EditText
+        android:id="@+id/edit_text_thanh_tich_con_can_bo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="thanh tich"
+        android:textSize="18sp"
+        android:textColor="#000"
+        android:layout_marginBottom="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_close_dialog_edit_con_can_bo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Close"
+            android:textAllCaps="false"
+            android:layout_marginRight="20dp"/>
+
+        <Button
+            android:id="@+id/btn_delete_con_can_bo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delete"
+            android:textAllCaps="false"
+            android:layout_marginRight="20dp"/>
+
+        <Button
+            android:id="@+id/btn_ok_dialog_edit_con_can_bo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OK"
+            android:textAllCaps="false"/>
+
+    </LinearLayout>
+
+</LinearLayout>

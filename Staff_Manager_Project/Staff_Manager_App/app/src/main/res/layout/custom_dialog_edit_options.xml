@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <Button
+        android:id="@+id/btn_edit_thong_tin_ca_nhan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thông tin cá nhân"
+        android:background="#fff"
+        android:textAllCaps="false"
+        android:gravity="left|center_vertical"
+        android:textColor="#000"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/btn_edit_gia_dinh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:textAllCaps="false"
+        android:gravity="left|center_vertical"
+        android:text="Gia đình"
+        android:textColor="#000"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/btn_edit_thong_tin_nghien_cuu_khoa_hoc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:textAllCaps="false"
+        android:gravity="left|center_vertical"
+        android:text="Nghiên cứu Khoa học"
+        android:textColor="#000"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/btn_edit_thong_tin_giang_day"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:textAllCaps="false"
+        android:gravity="left|center_vertical"
+        android:text="Thông tin giảng dạy"
+        android:textColor="#000"
+        android:textSize="18sp"/>
+
+</LinearLayout>
